@@ -2,18 +2,16 @@
 // TODO: Add the ThemeToggle button to the layout for user interaction.
 // TODO: Integrate Navbar and other sections into the App component.
 
-// import React from "react";
-import React from "react";
 import { ThemeProvider } from "./context/ThemeContext";
-import Navbar from "./components/Navbar/Navbar";
 import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
     <ThemeProvider>
       <div className="App">
         <ThemeToggle />
-        <Navbar />
+        <Header />
         {/* Other components */}
       </div>
     </ThemeProvider>
