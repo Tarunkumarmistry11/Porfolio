@@ -5,6 +5,7 @@
 import { ThemeProvider } from "./context/ThemeContext";
 // import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
 import Header from "./components/Header/Header";
+import About from "./components/Header/About/About";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         {/* <ThemeToggle /> */}
         <Header />
         {/* Other components */}
+        <About />
       </div>
     </ThemeProvider>
   );
