@@ -36,7 +36,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed top-4 right-4 p-3 h-20 rounded-full "
+      className="fixed top-0 right-20 p-3 h-20 rounded-full "
     >
       {theme === "light" ? (
         <div className="flex items-center">

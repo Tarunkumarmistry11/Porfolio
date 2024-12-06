@@ -3,14 +3,14 @@
 // TODO: Integrate Navbar and other sections into the App component.
 
 import { ThemeProvider } from "./context/ThemeContext";
-import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
+// import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
 import Header from "./components/Header/Header";
 
 const App = () => {
   return (
     <ThemeProvider>
       <div className="App">
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
         <Header />
         {/* Other components */}
       </div>
